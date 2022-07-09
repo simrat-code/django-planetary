@@ -13,3 +13,7 @@ def home(request):
 def planets_detail(request, planet_id):
     # if request.method == GET:
     return HttpResponse(f"<p>Viewing detail of Planet with id: {planet_id} </p>")
+
+
+def planets_add(request):
+    pass
